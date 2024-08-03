@@ -1,0 +1,15 @@
+.overlay{
+    background-color:  #1abc9cce;
+    opacity: 0;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}

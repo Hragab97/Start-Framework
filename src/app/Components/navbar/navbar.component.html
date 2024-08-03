@@ -1,0 +1,23 @@
+<nav [class.navbar_change]="navbar_variable" class="navbar navbar-expand-md py-3 position-fixed w-100 mainColorBg fw-bolder z-3" data-bs-theme="dark">
+    <div class="container">
+        <a [routerLink]="['/home']" class="navbar-brand"><h2>START FRAMEWORK</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mx-5 mb-2 mb-lg-0 ">
+                <li class="nav-item px-2">
+                    <a [routerLink]="['/about']" routerLinkActive="main-btn"  class="nav-link text-white" aria-current="page">ABOUT</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a [routerLink]="['/portfolio']" routerLinkActive="main-btn" class="nav-link text-white">PORTFOLIO</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a [routerLink]="['/contact']" routerLinkActive="main-btn" class="nav-link text-white">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

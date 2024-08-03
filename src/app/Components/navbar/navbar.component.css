@@ -1,0 +1,10 @@
+
+.navbar_change{
+   padding: 0 !important;
+   transition: 0.5s ease;
+
+}
+
+.navbar {
+    transition: 0.5s ease;
+}
